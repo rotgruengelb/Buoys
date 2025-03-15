@@ -30,7 +30,7 @@ loom {
     splitEnvironmentSourceSets()
 
     mods {
-        create("template") {
+        create("buoys") {
             sourceSet(sourceSets["main"])
             sourceSet(sourceSets["client"])
         }
