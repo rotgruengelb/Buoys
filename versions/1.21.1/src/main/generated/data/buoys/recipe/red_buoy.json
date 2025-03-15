@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "buoy",
+  "key": {
+    ".": {
+      "item": "minecraft:iron_nugget"
+    },
+    "O": {
+      "item": "minecraft:red_dye"
+    },
+    "_": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "pattern": [
+    " . ",
+    "__O",
+    "__O"
+  ],
+  "result": {
+    "count": 2,
+    "id": "buoys:red_buoy"
+  }
+}

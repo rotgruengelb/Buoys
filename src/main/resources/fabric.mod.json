@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "id": "${id}",
+  "version": "${version}",
+  "name": "${name}",
+  "description": "Adds dyeable Buoys that can be placed in of water.",
+  "authors": [
+    "rotgruengelb"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/mod/buoys",
+    "sources": "https://github.com/rotgruengelb/buoys"
+  },
+  "license": "MIT",
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.rotgruengelb.buoys.Buoys"
+    ],
+    "client": [
+      "net.rotgruengelb.buoys.BuoysClient"
+    ],
+    "fabric-datagen": [
+      "net.rotgruengelb.buoys.datagen.BuoyDataGenerator"
+    ]
+  },
+  "mixins": [
+    "buoys.mixins.json",
+    {
+      "config": "buoys.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.15",
+    "minecraft": "${mcdep}"
+  }
+}

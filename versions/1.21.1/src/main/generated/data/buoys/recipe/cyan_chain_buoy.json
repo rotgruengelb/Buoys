@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "chain_buoy",
+  "key": {
+    "-": {
+      "tag": "c:chains"
+    },
+    "O": {
+      "item": "minecraft:cyan_dye"
+    },
+    "_": {
+      "tag": "minecraft:wooden_slabs"
+    }
+  },
+  "pattern": [
+    "-_O",
+    " _O"
+  ],
+  "result": {
+    "count": 4,
+    "id": "buoys:cyan_chain_buoy"
+  }
+}

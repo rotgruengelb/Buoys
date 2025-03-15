@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "buoy",
+  "ingredients": [
+    {
+      "item": "minecraft:orange_dye"
+    },
+    [
+      {
+        "item": "buoys:black_buoy"
+      },
+      {
+        "item": "buoys:blue_buoy"
+      },
+      {
+        "item": "buoys:brown_buoy"
+      },
+      {
+        "item": "buoys:cyan_buoy"
+      },
+      {
+        "item": "buoys:gray_buoy"
+      },
+      {
+        "item": "buoys:green_buoy"
+      },
+      {
+        "item": "buoys:light_blue_buoy"
+      },
+      {
+        "item": "buoys:light_gray_buoy"
+      },
+      {
+        "item": "buoys:lime_buoy"
+      },
+      {
+        "item": "buoys:magenta_buoy"
+      },
+      {
+        "item": "buoys:pink_buoy"
+      },
+      {
+        "item": "buoys:purple_buoy"
+      },
+      {
+        "item": "buoys:red_buoy"
+      },
+      {
+        "item": "buoys:yellow_buoy"
+      },
+      {
+        "item": "buoys:white_buoy"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "buoys:orange_buoy"
+  }
+}

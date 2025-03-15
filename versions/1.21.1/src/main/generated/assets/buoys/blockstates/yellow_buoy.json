@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "buoys:block/yellow_buoy"
+    },
+    "half=upper": {
+      "model": "minecraft:block/air"
+    }
+  }
+}

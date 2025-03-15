@@ -1,0 +1,54 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "minecraft:block/air"
+      },
+      "when": {
+        "chain_buoy_state": "upper"
+      }
+    },
+    {
+      "apply": {
+        "model": "buoys:block/yellow_chain_buoy"
+      },
+      "when": {
+        "chain_buoy_state": "!upper"
+      }
+    },
+    {
+      "apply": {
+        "model": "buoys:block/yellow_chain_buoy_straight_chain"
+      },
+      "when": {
+        "chain_buoy_state": "lower_chain_n"
+      }
+    },
+    {
+      "apply": {
+        "model": "buoys:block/yellow_chain_buoy_straight_chain",
+        "y": 90
+      },
+      "when": {
+        "chain_buoy_state": "lower_chain_e"
+      }
+    },
+    {
+      "apply": {
+        "model": "buoys:block/yellow_chain_buoy_diagonal_chain"
+      },
+      "when": {
+        "chain_buoy_state": "lower_chain_sw"
+      }
+    },
+    {
+      "apply": {
+        "model": "buoys:block/yellow_chain_buoy_diagonal_chain",
+        "y": 90
+      },
+      "when": {
+        "chain_buoy_state": "lower_chain_se"
+      }
+    }
+  ]
+}

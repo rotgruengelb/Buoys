@@ -1,0 +1,45 @@
+{
+  "buoy_block_break": {
+    "subtitle": "subtitles.block.generic.break",
+    "sounds": [
+      "minecraft:dig/coral2",
+      "minecraft:dig/coral3",
+      "minecraft:dig/coral4"
+    ]
+  },
+  "buoy_block_step": {
+    "subtitle": "subtitles.block.generic.footsteps",
+    "sounds": [
+      "minecraft:step/coral2",
+      "minecraft:step/coral3",
+      "minecraft:step/coral4",
+      "minecraft:step/coral5",
+      "minecraft:step/coral6"
+    ]
+  },
+  "buoy_block_place": {
+    "subtitle": "subtitles.block.generic.place",
+    "sounds": [
+      "minecraft:dig/coral2",
+      "minecraft:dig/coral3",
+      "minecraft:dig/coral4"
+    ]
+  },
+  "buoy_block_hit": {
+    "subtitle": "subtitles.block.generic.hit",
+    "sounds": [
+      "minecraft:dig/coral2",
+      "minecraft:dig/coral3",
+      "minecraft:dig/coral4"
+    ]
+  },
+  "buoy_block_fall": {
+    "sounds": [
+      "minecraft:step/coral2",
+      "minecraft:step/coral3",
+      "minecraft:step/coral4",
+      "minecraft:step/coral5",
+      "minecraft:step/coral6"
+    ]
+  }
+}

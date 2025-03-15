@@ -1,0 +1,6 @@
+{
+  "parent": "buoys:block/chain_buoy",
+  "textures": {
+    "texture": "buoys:block/brown_buoy"
+  }
+}

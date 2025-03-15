@@ -1,0 +1,61 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "group": "chain_buoy",
+  "ingredients": [
+    {
+      "item": "minecraft:magenta_dye"
+    },
+    [
+      {
+        "item": "buoys:black_chain_buoy"
+      },
+      {
+        "item": "buoys:blue_chain_buoy"
+      },
+      {
+        "item": "buoys:brown_chain_buoy"
+      },
+      {
+        "item": "buoys:cyan_chain_buoy"
+      },
+      {
+        "item": "buoys:gray_chain_buoy"
+      },
+      {
+        "item": "buoys:green_chain_buoy"
+      },
+      {
+        "item": "buoys:light_blue_chain_buoy"
+      },
+      {
+        "item": "buoys:light_gray_chain_buoy"
+      },
+      {
+        "item": "buoys:lime_chain_buoy"
+      },
+      {
+        "item": "buoys:orange_chain_buoy"
+      },
+      {
+        "item": "buoys:pink_chain_buoy"
+      },
+      {
+        "item": "buoys:purple_chain_buoy"
+      },
+      {
+        "item": "buoys:red_chain_buoy"
+      },
+      {
+        "item": "buoys:yellow_chain_buoy"
+      },
+      {
+        "item": "buoys:white_chain_buoy"
+      }
+    ]
+  ],
+  "result": {
+    "count": 1,
+    "id": "buoys:magenta_chain_buoy"
+  }
+}
