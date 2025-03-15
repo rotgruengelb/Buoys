@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "${id}",
-  "version": "${version}",
+  "version": "${version}+${mc_title}",
   "name": "${name}",
   "description": "Adds dyeable Buoys that can be placed in of water.",
   "authors": [
